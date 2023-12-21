@@ -2,3 +2,14 @@
 
 ## 背景
 povoの明細がいちいちパスワード保護されててキレそうになったので
+
+## 使い方
+
+パスワード保護付きpdfを`pdfs`に置く
+
+```shell
+$ password=unko python3 main.py
+```
+
+## requirements
+- python3

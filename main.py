@@ -1,6 +1,12 @@
 import PyPDF2
 import os
 
+password = os.environ["password"]
+
+input_folder_path = "pdfs"
+output_folder_path = "outputs"
+
+
 def decrypt_pdf(input_path, output_path, password):
     print(input_path, output_path, password)
     with open(input_path, 'rb') as file:
@@ -18,12 +24,6 @@ def decrypt_pdf(input_path, output_path, password):
         else:
             print(f"No encryption: {input_path}")
 
-# パスワードをここに設定
-password = "password"
-
-# フォルダ内のすべてのPDFファイルに対して実行
-input_folder_path = "pdfs"
-output_folder_path = "outputs"
 
 for file_name in os.listdir(input_folder_path):
     if file_name.endswith('.pdf'):

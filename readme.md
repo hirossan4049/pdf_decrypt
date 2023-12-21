@@ -20,3 +20,7 @@ $ password=unko python3 main.py
 ```shell
 $ pip3 install -r requirements.txt
 ```
+
+## ChatGPT❤️
+
+https://chat.openai.com/share/cce7c05c-d2fd-48ec-ad2d-34ce2920bfc7

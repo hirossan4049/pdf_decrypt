@@ -13,3 +13,10 @@ $ password=unko python3 main.py
 
 ## requirements
 - python3
+
+
+## install
+
+```shell
+$ pip3 install -r requirements.txt
+```
